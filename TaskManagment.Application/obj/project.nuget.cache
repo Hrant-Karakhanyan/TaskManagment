@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4klgwrde3zc=",
+  "dgSpecHash": "W7V/KK9ObGM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj",
+  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hrant\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",

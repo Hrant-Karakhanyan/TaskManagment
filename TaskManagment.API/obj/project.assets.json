@@ -3269,11 +3269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.API\\TaskManagment.API.csproj",
+      "projectUniqueName": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\TaskManagment.API.csproj",
       "projectName": "TaskManagment.API",
-      "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.API\\TaskManagment.API.csproj",
+      "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\TaskManagment.API.csproj",
       "packagesPath": "C:\\Users\\Hrant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.API\\obj\\",
+      "outputPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3294,11 +3294,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj": {
-              "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj"
+            "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj": {
+              "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj"
             },
-            "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj"
+            "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj"
             }
           }
         }

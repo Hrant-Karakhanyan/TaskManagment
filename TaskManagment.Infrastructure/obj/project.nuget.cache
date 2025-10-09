@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aal7e4Pz1xI=",
+  "dgSpecHash": "Rgd+EY1k00s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hrant\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

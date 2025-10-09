@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RRsTye1Vcj0=",
+  "dgSpecHash": "Yop6f0n456E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Domain\\TaskManagment.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Domain\\TaskManagment.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
