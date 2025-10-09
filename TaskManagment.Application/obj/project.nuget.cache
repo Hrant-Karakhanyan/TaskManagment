@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4klgwrde3zc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Project\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hrant\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
+    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
