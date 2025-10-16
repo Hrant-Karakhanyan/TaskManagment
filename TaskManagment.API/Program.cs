@@ -9,18 +9,18 @@ namespace TaskManagment.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // ✅ 1. Добавляем DI из Application и Infrastructure
+            // Adding DI from Application and Infrastructure
             builder.Services.AddApplicationServices();
             builder.Services.AddInfrastructureServices(builder.Configuration);
 
-            // ✅ 2. Добавляем контроллеры и Swagger
+            // Adding Controllers and Swagger
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // ✅ 3. Конфигурация middleware
+            // Middleware configuration
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -30,7 +30,7 @@ namespace TaskManagment.API
             app.UseHttpsRedirection();
             app.UseAuthorization();
 
-            // ✅ 4. Маршрутизация контроллеров
+            // controller routing
             app.MapControllers();
 
             app.Run();
