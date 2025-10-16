@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace TaskManagment.Application.DTOs
 {
-    internal class TaskDto
+    public class TaskDto
     {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public string Status { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; } 
+
     }
 }
