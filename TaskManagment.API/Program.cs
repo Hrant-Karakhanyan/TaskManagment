@@ -1,4 +1,5 @@
-
+﻿using TaskManagment.Application.DependencyInjection;
+using TaskManagment.Infrastructure.DependencyInjection;
 
 namespace TaskManagment.API
 {
@@ -6,20 +7,20 @@ namespace TaskManagment.API
     {
         public static void Main(string[] args)
         {
-            
-
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // ✅ 1. Добавляем DI из Application и Infrastructure
+            builder.Services.AddApplicationServices();
+            builder.Services.AddInfrastructureServices(builder.Configuration);
 
+            // ✅ 2. Добавляем контроллеры и Swagger
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // ✅ 3. Конфигурация middleware
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -27,18 +28,12 @@ namespace TaskManagment.API
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
 
-
+            // ✅ 4. Маршрутизация контроллеров
             app.MapControllers();
 
             app.Run();
-        }
-
-        private static object CreateHostBuilder(string[] args)
-        {
-            throw new NotImplementedException();
         }
     }
 }
