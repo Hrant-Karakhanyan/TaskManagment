@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC4EBA9-7C4F-4E94-9631-A9B7836BD3FC}|TaskManagment.Application\\TaskManagment.Application.csproj|c:\\users\\hrant\\onedrive\\desktop\\projects\\taskmanagment\\taskmanagment.application\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC4EBA9-7C4F-4E94-9631-A9B7836BD3FC}|TaskManagment.Application\\TaskManagment.Application.csproj|solutionrelative:taskmanagment.application\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTask.cs",
+              "DocumentMoniker": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Application\\CreateTask.cs",
+              "RelativeDocumentMoniker": "TaskManagment.Application\\CreateTask.cs",
+              "ToolTip": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Application\\CreateTask.cs",
+              "RelativeToolTip": "TaskManagment.Application\\CreateTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T21:36:51.903Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
