@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zjRNLeL+jVM=",
+  "dgSpecHash": "Rauc7/af/UA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Application\\TaskManagment.Application.csproj",
   "expectedPackageFiles": [
@@ -18,10 +18,7 @@
     "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

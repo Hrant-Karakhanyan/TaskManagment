@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TaskManagment.Application.Interfaces
 {
-    public interface Task
+    public interface ITask
     {
-        string Name { get; }
+        string Name { get; set; }
         string Description { get; set; }
     }
 }

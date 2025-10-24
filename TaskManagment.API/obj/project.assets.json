@@ -3181,9 +3181,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\TaskManagment.API.csproj",
-      "projectName": "TaskManagment.API",
-      "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\TaskManagment.API.csproj",
+      "projectUniqueName": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\TaskManagment.Presentation.csproj",
+      "projectName": "TaskManagment.Presentation",
+      "projectPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\TaskManagment.Presentation.csproj",
       "packagesPath": "C:\\Users\\Hrant\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.API\\obj\\",
       "projectStyle": "PackageReference",
@@ -3251,24 +3251,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3277,7 +3259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

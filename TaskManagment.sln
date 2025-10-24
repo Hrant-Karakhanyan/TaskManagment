@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Domain", "TaskManagment.Domain\TaskManagment.Domain.csproj", "{41B5347B-6776-4EF1-B98C-C28D3E68D378}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Application",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Infrastructure", "TaskManagment.Infrastructure\TaskManagment.Infrastructure.csproj", "{863BE736-8D46-4C92-83D4-595BFA990530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.API", "TaskManagment.API\TaskManagment.API.csproj", "{3E22F2C3-927C-4C52-AE9E-EF43B6ECF8B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Presentation", "TaskManagment.API\TaskManagment.Presentation.csproj", "{3E22F2C3-927C-4C52-AE9E-EF43B6ECF8B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

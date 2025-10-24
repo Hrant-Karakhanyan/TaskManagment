@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+x+jdI69SRk=",
+  "dgSpecHash": "01re0ooYDLw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hrant\\OneDrive\\Desktop\\Projects\\TaskManagment\\TaskManagment.Infrastructure\\TaskManagment.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -81,10 +81,7 @@
     "C:\\Users\\Hrant\\.nuget\\packages\\system.text.json\\9.0.9\\system.text.json.9.0.9.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Hrant\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
-    "C:\\Users\\Hrant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+    "C:\\Users\\Hrant\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
