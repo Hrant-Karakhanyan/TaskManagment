@@ -15,9 +15,4 @@
     <ProjectReference Include="..\TaskManagment.Domain\TaskManagment.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Tasks\" />
-  </ItemGroup>
-
 </Project>
