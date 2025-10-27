@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskManagment.Application.Interfaces
+namespace TaskManagment.Domain.Interfaces
 {
-    public interface ITask
+    public interface ITask 
     {
         string Name { get; set; }
         string Description { get; set; }

@@ -6,25 +6,19 @@ using System.Threading.Tasks;
 
 namespace TaskManagment.Domain.Entity
 {
-    public class TaskEntity
+    public class TaskEntity 
     {
-         public Guid Id { get; }
-        public string Name { get; set; } 
+        public Guid Id { get; }
+        public string Name { get; set; }
         public string Description { get; set; }
 
-        public TaskEntity(Guid id, string name, string description)
+        public TaskEntity(string name, string description) 
         {
-
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                throw new ArgumentException("Task name cannot be null or empty.", nameof(name));
-            }
-
-            Id = id;
+            Id = Guid.NewGuid();
             Name = name;
             Description = description;
         }
-
+        
+        private TaskEntity() {}
     }
 }
-    
