@@ -1,22 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TaskManagment.Domain.Interfaces;
-namespace TaskManagment.Application.Model
-{
-    public class MyTask : ITask
-    {
-        public string Name { get; set; }
-        public string Description { get; set; }
+﻿using TaskManagment.Domain.Interfaces;
 
-        public MyTask() { }  
-        
-        public MyTask(string name, string description)
-        {
-            Name = name;
-            Description = description;
-        }
-    }
+namespace TaskManagment.Application.Model;
+
+public class MyTask(string name, string description) : ITask
+{
+    public string Name { get; } = name;
+    public string Description { get; set; } = description;
 }
