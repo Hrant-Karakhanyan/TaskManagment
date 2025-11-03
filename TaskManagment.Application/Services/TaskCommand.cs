@@ -37,22 +37,21 @@ public class TaskCommand() : ITaskManager
 
     public List<ITask> GetAllTasks()
     {
-        if(Tasks.Count == 0)
-        {
-                
-        }
-
-        return Tasks;
+        
+        return Tasks.ToList();
     }
 
     public ITask GetTask(string name)
     {
-        if(!Tasks.Any(t => t.Name == name))
+        ITask? foundTask = Tasks.FirstOrDefault(t => t.Name == name);
+
+        if (foundTask == null)
         {
-                
+            // Throw a specific exception
+            throw new KeyNotFoundException($"Task with name '{name}' not found.");
         }
 
-        return Tasks.FirstOrDefault(t => t.Name == name)!;
+        return foundTask;
     }
-       
+
 }

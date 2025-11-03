@@ -6,4 +6,10 @@ public class MyTask(string name, string description) : ITask
 {
     public string Name { get; } = name;
     public string Description { get; set; } = description;
+
+    public override string ToString()
+    {
+        return $"[TASK] Name: {Name}, Desc: {Description}";
+    }
+
 }
