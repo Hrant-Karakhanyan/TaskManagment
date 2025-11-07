@@ -2,16 +2,8 @@
 
 public class TaskEntity 
 {
-    public Guid Id { get; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-
-    public TaskEntity(string name, string description) 
-    {
-        Id = Guid.NewGuid();
-        Name = name;
-        Description = description;
-    }
-    
-    private TaskEntity() {}
+    public Guid Id { get; } = Guid.NewGuid();
+    public string Name { get; set; } = default!;
+    public string Description { get; set; } = default!;
+    public bool IsActive { get; set; } = true;
 }
