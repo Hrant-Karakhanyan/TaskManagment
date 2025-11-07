@@ -6,11 +6,11 @@ public interface ITaskRepository
 {
     void Add(TaskEntity task);
     
-    void Update(TaskEntity task);
+    void Update(Guid id, TaskEntity task);
 
-    void Delete(TaskEntity task);
+    void Delete(Guid id);
 
-    TaskEntity GetByName(string name);
+    TaskEntity GetById(Guid Id);
 
-    List<TaskEntity> GetAll();
+    IEnumerator<TaskEntity> GetAll();
 }
