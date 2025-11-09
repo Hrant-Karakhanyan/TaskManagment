@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,31 +11,41 @@ using TaskManagment.Infrastructure.Persistence;
 namespace TaskManagment.Infrastructure.TaskRepository;
 public class TaskRepository(TaskDbContext context) : ITaskRepository
 {
-    public void Add(TaskEntity task)
+    public async Task AddAsync(TaskEntity task)
     {
-        throw new NotImplementedException();
+        context.Tasks.Add(task);
+        await context.SaveChangesAsync();
     }
 
-    public void Update(Guid id, TaskEntity task)
+    public async Task UpdateAsync(TaskEntity task)
     {
-        throw new NotImplementedException();
+        context.Tasks.Update(task);
+        await context.SaveChangesAsync();
     }
 
+
+    public async Task DeleteAsync(Guid id)
+    {
         
-    public void Delete(Guid id)
-    {
-        throw new NotImplementedException();
+        TaskEntity? entityToDelete = await context.Tasks.FirstOrDefaultAsync(t => t.Id == id);
+
+        if (entityToDelete != null)
+        {
+            
+            context.Tasks.Remove(entityToDelete);
+            await context.SaveChangesAsync();
+        }
     }
 
-    public IEnumerator<TaskEntity> GetAll()
+    public async Task<TaskEntity?> GetByIdAsync(Guid Id)
     {
-        throw new NotImplementedException();
+        
+        TaskEntity? entity = await context.Tasks.FirstOrDefaultAsync(t => t.Id == Id);
+        return entity;
     }
 
-    public TaskEntity GetById(Guid Id)
+    public async Task<IEnumerator<TaskEntity>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        return (IEnumerator<TaskEntity>)await context.Tasks.ToListAsync();
     }
-
-   
 }
